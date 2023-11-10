@@ -1,4 +1,4 @@
-![](media\logo1.png)
+![](media/logo1.png)
 # Get personal data from chess.com and github.com
 
 ## Overview
