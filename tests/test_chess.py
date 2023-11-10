@@ -7,7 +7,7 @@ class StatisticsTests(unittest.TestCase):
         client = ChessStatistics("zosialaa")
         client.data_chess()
         
-    def test_show_data(self):
+    def test_data_chess(self):
         client1= ChessStatistics("zosialaa")
         client1.data_chess()
         self.assertTrue(len(client1.table_data) > 0)
