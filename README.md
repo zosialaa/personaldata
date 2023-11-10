@@ -5,11 +5,11 @@
 
 ## Overview
 
-The `personaldata` package is a Python library that allows you to access and work with data from chees.com and GitHub. It provides a simple and convenient way to retrieve information from these sources, making it easy to analyze and use the data in your projects.
+The `personaldata` package is a Python library that allows you to access and work with data from chess.com and GitHub. It provides a simple and convenient way to retrieve information from these sources, making it easy to analyze and use the data in your projects.
 
 ## Features
 
-- Retrieve data from chees.com and GitHub.
+- Retrieve data from chess.com and GitHub.
 - Perform various operations on the data, such as filtering, sorting, and more.
 - Easily integrate the data into your Python projects.
 
