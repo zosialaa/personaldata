@@ -2,9 +2,6 @@ from personaldata.chess_statistics import ChessStatistics
 from personaldata.github_statistics import GithubStatistics
 from personaldata.getwebsite import GetWebsiteMixin
 
-#client1 = GetWebsiteMixin()
-#html = client1.get_website_html("https://www.chess.com/pl/member/zosialaa")
-#print(html)
 
 if __name__ == '__main__':
     
