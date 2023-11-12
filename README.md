@@ -2,7 +2,7 @@
 <img src="media/logo1.png" style="width:300px;height:300px;">
 </p>
 
-[![Run tests for personaldata]]
+
 
 # Get personal data from chess.com and github.com
 
