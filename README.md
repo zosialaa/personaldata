@@ -3,6 +3,7 @@
 </p>
 
 [![Run tests for personaldata](https://github.com/zosialaa/personaldata/actions/workflows/tests.yml/badge.svg)](https://github.com/zosialaa/personaldata/actions/workflows/tests.yml)
+[![Licence](https://img.shields.io/github/license/zosialaa/personaldata?style=for-the-badge)](./LICENSE)
 
 # Get personal data from chess.com and github.com
 
