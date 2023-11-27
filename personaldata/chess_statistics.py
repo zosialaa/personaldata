@@ -5,7 +5,7 @@ from personaldata.getwebsite import GetWebsiteMixin
 class ChessStatistics(GetWebsiteMixin):
     def __init__(self, nick):
         self.nick = nick
-        self.url = f"https://www.chess.com/pl/member/{self.nick}"
+        self.url = f"https://www.chess.com/el/member/{self.nick}"
         self.table_data = []
 
     def data_chess(self):
@@ -13,12 +13,16 @@ class ChessStatistics(GetWebsiteMixin):
         soup = BeautifulSoup(r, "html.parser")
         buttons = soup.find_all("button", class_="stat-section-button")
 
+        self.data_dict = {}
+        
         for button in buttons:
-            dic = {}
-            dic['name'] = button.find(
+        
+            key = button.find(
                 'span', class_="stat-section-section-link-name").text
-            dic['score'] = button.find(
+            value = button.find(
                 'div', class_="stat-section-user-rating").text
-            self.table_data.append(dic)
+            self.data_dict[key]=value
+            
 
-        print(self.table_data)
+        print(self.data_dict)
+        return self.data_dict

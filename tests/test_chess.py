@@ -10,4 +10,4 @@ class StatisticsTests(unittest.TestCase):
     def test_data_chess(self):
         client1= ChessStatistics("zosialaa")
         client1.data_chess()
-        self.assertTrue(len(client1.table_data) > 0)
+        self.assertTrue(len(client1.data_dict) > 0)
