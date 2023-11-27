@@ -5,7 +5,7 @@ from personaldata.getwebsite import GetWebsiteMixin
 class ChessStatistics(GetWebsiteMixin):
     def __init__(self, nick):
         self.nick = nick
-        self.url = f"https://www.chess.com/el/member/{self.nick}"
+        self.url = f"https://www.chess.com/en/member/{self.nick}"
         self.table_data = []
 
     def data_chess(self):
