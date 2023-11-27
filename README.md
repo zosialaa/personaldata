@@ -46,6 +46,9 @@ If you want to contribute to the development of this package, please follow thes
 5. Push your changes to your GitHub repository.
 6. Create a pull request to the main repository.
 
+## Publishing
+python setup.py sdist
+twine upload dist
 ## License
 
 This package is licensed under the MIT License. See the LICENSE file for more details.
